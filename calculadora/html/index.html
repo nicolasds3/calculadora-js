@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculadora</title>
+    <link rel="website icon" type="svg" href="../imagens/calculator.svg">
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="../js/main.js"></script>
+</head>
+<body>
+    <section class="flex" id="sec">
+        <div id="div">
+            <header class="elementos" id="calculadora">
+                <h1>Calculadora</h1>
+            </header>
+            <select name="1111" id="select">
+                <option value="escolha">Escolha uma operação</option>
+                <option value="soma">Soma</option>
+                <option value="subtracao">Subtração</option>
+                <option value="multiplicacao">Multiplicação</option>
+                <option value="divisao">Divisão</option>
+            </select>
+            <div class="div">
+                <p>Primeiro número: </p><input type="number" id="primeiroN" class="block">
+                <p>Segundo número: </p><input type="number" id="segundoN"  class="block">
+            </div>
+                <button id="botao" name="calcular" onclick="kl()">calcular</button>
+                <div id="resultadoDiv">
+                    <h3>O resultado foi: <span id="mostrarResultado"></span></h3>
+                </div>
+        </div>
+    </section>
+</body>
+</html>
